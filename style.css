@@ -4,7 +4,7 @@
 
 /* Main Section Style */
 .custom-hero-section {
-    background-image: url('/images/hero-bg.jpg'); /* 🔁 Replace with your image path */
+    background-image: url('/image/hero2.webp'); /* 🔁 Replace with your image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,6 +120,7 @@
 }
 
 .welcome-container {
+  
     margin:  auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);

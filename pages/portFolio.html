@@ -1,11 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="/aboutstyle.css" />
+          <!-- ✅ Bootstrap CSS CDN -->
+          <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          />
+      </head>
 <body>
-    
+<!-- header section -->
+<header class="bg-light text-white p-3">
+    <div class="container">
+    <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Furniture Laundry</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvaslightNavbar" aria-controls="offcanvaslightNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start text-bg-light" tabindex="-1" id="offcanvaslightNavbar" aria-labelledby="offcanvaslightNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvaslightNavbarLabel">Furniture Laundry</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/root.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="/pages/portFolio.html">Portfolio</a>
+                    <a class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-light">
+                        <li><a class="dropdown-item" href="#">Fabric Upholstery Maintenance</a></li>
+                        <li><a class="dropdown-item" href="#">Wood Maintenance</a></li>
+                        <li><a class="dropdown-item" href="#">Wood Maintenance</a></li>
+                        <li><a class="dropdown-item" href="#">Wood Maintenance</a></li>
+                    
+                    </ul>
+                    </a>
+                    <a class="nav-link active" aria-current="page" href="/pages/about.html">About Us</a>
+                    <a class="nav-link active" aria-current="page" href="/pages/contact.html">Contact Us</a>
+                </ul>
+                <!-- <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+                </form> -->
+            </div>
+            </div>
+        </div>
+        </nav>
+
+    </div>
+</header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>
+        <span class="line-1">Contact Us</span><br>
+        <h1>To Transform Your Interiors with Immaculate Craftsmanship</h1>
+      </h1>
+    </div>
+  </section>
+  
+
+  <!-- Company Overview -->
+  <section class="overview">
+    <div class="overview-container">
+      <!-- Left Side -->
+      <div class="overview-left">
+        <img src="/image/hero4.webp" alt="Furniture Experience" />
+        <div class="experience-tag">
+          <h3>7+</h3>
+          <p>Years</p>
+          <!-- <p>Excellence</p> -->
+        </div>
+      </div>
+  
+      <!-- Right Side -->
+      <div class="overview-right">
+        <h2>Who We Are</h2>
+        <p>
+          We specialize in cleaning, restoring, and maintaining the beauty of cherished furniture pieces.
+          Our team provides high-quality, eco-friendly services tailored to your needs.
+          With years of experience and dedication, we’ve built a reputation for precision and care.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- History -->
+  <section class="history-section">
+    <div class="history-container">
+      <!-- Left Side with Image -->
+      <div class="history-image">
+        <img src="/image/hero3.webp" alt="Furniture Project" />
+        <div class="history-stats">
+          <h2>795+</h2>
+          <p>Project Done</p>
+        </div>
+      </div>
+  
+      <!-- Right Side with Text -->
+      <div class="history-text">
+        <h5>OUR HISTORY</h5>
+        <h2>A Legacy of Excellence in Leather Care</h2>
+        <p>
+          <strong>Furniture Laundry</strong>, founded in 2017, specializes in cleaning, restoring, dyeing, and repairing high-end leather furniture.
+          With a focus on understanding the nuances of leather, we have perfected techniques and adopted state-of-the-art technologies
+          to deliver unparalleled results. With decades of experience, we are the go-to choice for homeowners, businesses, and designers,
+          ensuring their furniture remains stunning and in good condition. We offer worry-free maintenance and timeless elegance.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Why Choose Us -->
+  <section class="why-choose-us-section">
+    <div class="why-choose-us-container">
+      <!-- Left Side Text -->
+      <div class="why-text">
+        <h2>Transform Your Space with<br>Elegance and Precision</h2>
+        <p>We redefine elegance and beauty, crafting timeless, polished spaces with unparalleled expertise and precision.</p>
+        <a href="#contact" class="btn-primary">Contact Us</a>
+      </div>
+  
+      <!-- Right Side Image -->
+      <div class="why-image">
+        <img src="/image/hero3.webp" alt="Luxury Room" />
+      </div>
+    </div>
+  </section>
+  
+
+ <!-- footer section -->
+<footer class="footer">
+    <div class="footer-container">
+      <!-- Column 1: Logo and Info -->
+      <div class="footer-column footer-branding">
+        <a href="https://furniturelaundry.com/" class="footer-logo">
+          <img src="https://furniturelaundry.com/wp-content/uploads/2024/12/furniture-site-logo-e1733556585671.png" alt="Furniture Laundry Logo">
+        </a>
+        <p class="footer-tagline">Furniture Laundry revives living spaces with expert care, ensuring timeless charm and polished sophistication.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/profile.php?id=61570079496838" aria-label="Facebook" class="social-icon facebook">
+            <i class="ti-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.instagram.com/furniture.laundry?igsh=emNlZGljY2pnejFl" aria-label="Instagram" class="social-icon instagram">
+            <svg class="svg-icon" viewBox="0 0 448 512" aria-hidden="true">
+              <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Column 2: Quick Links -->
+      <div class="footer-column footer-nav">
+        <h2 class="footer-heading">Quick Links</h2>
+        <nav class="footer-menu">
+          <ul>
+            <li><a href="https://furniturelaundry.com/about-us/">About Us</a></li>
+            <li><a href="https://furniturelaundry.com/our-service/">Our Services</a></li>
+            <li><a href="https://furniturelaundry.com/blogs/">Blogs</a></li>
+            <li><a href="https://furniturelaundry.com/contact-us/">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+      
+      <!-- Column 3: Services -->
+      <div class="footer-column footer-nav">
+        <h2 class="footer-heading">Our Services</h2>
+        <nav class="footer-menu">
+          <ul>
+            <li><a href="https://furniturelaundry.com/leather-maintenance/">Leather Maintenance</a></li>
+            <li><a href="https://furniturelaundry.com/fabric-upholstery-sofas/">Fabric Upholstery Maintenance</a></li>
+            <li><a href="https://furniturelaundry.com/wood-maintenance/">Wood Maintenance</a></li>
+            <li><a href="https://furniturelaundry.com/metal-maintenance/">Metal Maintenance</a></li>
+            <li><a href="https://furniturelaundry.com/curtain-maintenance/">Curtain Maintenance</a></li>
+            <li><a href="https://furniturelaundry.com/marble-maintenance/">Marble Maintenance</a></li>
+            <li><a href="https://furniturelaundry.com/rugs-carpet-maintenance/">Rugs & Carpets Maintenance</a></li>
+          </ul>
+        </nav>
+      </div>
+      
+      <!-- Column 4: Map -->
+      <div class="footer-column footer-map">
+        <iframe 
+          src="https://www.google.com/maps?q=18.923307,72.826096&z=15&output=embed"
+          width="100%" 
+          height="300" 
+          frameborder="0" 
+          style="border:0;" 
+          allowfullscreen="" 
+          aria-hidden="false" 
+          tabindex="0"
+          title="Nariman Point Fire Station Location Map">
+        </iframe>
+      </div>
+      
+    </div>
+</footer>
+
+
+  <footer class="site-footer">
+    <div class="sitefooter-container">
+      <h2 class="sitefooter-text">
+        Copyright © 2024 Furniture Laundry. All Rights Reserved.
+        Powered by <a href="https://aurocreativestudio.com/" target="_blank" rel="noopener noreferrer">Auro Creative Studio</a>
+        Auro Creative Studio</a>.
+      </h2>
+    </div>
+</footer>
+    <!-- ✅ Bootstrap JS (optional, for components like modals, etc.) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    ></script>
 </body>
 </html>

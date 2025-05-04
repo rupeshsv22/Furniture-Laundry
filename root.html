@@ -1,79 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sofa Spark</title>
   <link rel="stylesheet" href="style.css" />
-    <!-- ✅ Bootstrap CSS CDN -->
-    <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    />
+  <!-- ✅ Bootstrap CSS CDN -->
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- ✅ Custom CSS -->
-    <link rel="stylesheet" href="styles.css" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+<!-- Optional: Include Animate.css for animations -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 </head>
+
 <body>
-<!-- header section -->
-<header class="bg-light text-white p-3">
+  <!-- header section -->
+  <header class="bg-light text-white p-3">
     <div class="container">
-    <nav class="navbar navbar-light bg-light fixed-top">
+      <nav class="navbar navbar-light bg-light fixed-top">
         <div class="container-fluid">
-             <!-- Added Logo Here -->
-             <h5 class="offcanvas-title d-flex align-items-center" id="offcanvaslightNavbarLabel">
-              <a href="/root.html" class="d-flex align-items-center text-decoration-none">
-                <img src="/image/LOGO2.png" alt="Logo" class="logo-img me-2">
-              </a>
-            </h5>
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvaslightNavbar" aria-controls="offcanvaslightNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-start text-bg-light" tabindex="-1" id="offcanvaslightNavbar" aria-labelledby="offcanvaslightNavbarLabel">
-            <div class="offcanvas-header">
-                 <!-- Added Logo Here -->
-            <h5 class="offcanvas-title d-flex align-items-center" id="offcanvaslightNavbarLabel">
+          <!-- Added Logo Here -->
+          <h5 class="offcanvas-title d-flex align-items-center" id="offcanvaslightNavbarLabel">
+            <a href="/root.html" class="d-flex align-items-center text-decoration-none">
               <img src="/image/LOGO2.png" alt="Logo" class="logo-img me-2">
-            </h5>
-                <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </a>
+          </h5>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvaslightNavbar"
+            aria-controls="offcanvaslightNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-start text-bg-light offcanvas-auto-width" tabindex="-1" id="offcanvaslightNavbar"
+  aria-labelledby="offcanvaslightNavbarLabel">
+
+            <div class="offcanvas-header">
+              <!-- Added Logo Here -->
+              <h5 class="offcanvas-title d-flex align-items-center" id="offcanvaslightNavbarLabel">
+                <img src="./image/LOGO2.png" alt="Sofa Spark Logo" width="160" class="mb-3" loading="lazy">
+              </h5>
+              <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/root.html">Home</a>
-                    <a class="nav-link active" aria-current="page" href="/pages/portFolio.html">Portfolio</a>
-                    <a class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
+                  <a class="nav-link active" aria-current="page" href="/root.html">Home</a>
+                  <a class="nav-link active" aria-current="page" href="/pages/portFolio.html">Portfolio</a>
+                  <a class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Dropdown
                     </a>
                     <ul class="dropdown-menu dropdown-menu-light">
-                        <li><a class="dropdown-item" href="#">Fabric Upholstery Maintenance</a></li>
-                        <li><a class="dropdown-item" href="#">Wood Maintenance</a></li>
-                        <li><a class="dropdown-item" href="#">Wood Maintenance</a></li>
-                        <li><a class="dropdown-item" href="#">Wood Maintenance</a></li>
-                    
+                      <li><a class="dropdown-item" href="#">Fabric Upholstery Maintenance</a></li>
+                      <li><a class="dropdown-item" href="#">Wood Maintenance</a></li>
+                      <li><a class="dropdown-item" href="#">Wood Maintenance</a></li>
+                      <li><a class="dropdown-item" href="#">Wood Maintenance</a></li>
+
                     </ul>
-                    </a>
-                    <a class="nav-link active" aria-current="page" href="/pages/about.html">About Us</a>
-                    <a class="nav-link active" aria-current="page" href="/pages/contact.html">Contact Us</a>
-                </ul>
-                <!-- <form class="d-flex mt-3" role="search">
+                  </a>
+                  <a class="nav-link active" aria-current="page" href="/pages/about.html">About Us</a>
+                  <a class="nav-link active" aria-current="page" href="/pages/contact.html">Contact Us</a>
+              </ul>
+              <!-- <form class="d-flex mt-3" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-success" type="submit">Search</button>
                 </form> -->
             </div>
-            </div>
+          </div>
         </div>
-        </nav>
+      </nav>
 
     </div>
-</header>
+  </header>
 
 
-<!-- hero section 1-->
-
-<section class="custom-hero-section">
+  <!-- hero section 1-->
+  <section class="custom-hero-section">
     <div class="hero-container">
       <h1 class="hero-title">Transform Your Space with Expert Care</h1>
       <p class="hero-text">
@@ -84,271 +92,382 @@
     </div>
   </section>
 
-  <!--  -->
-<section class="welcome-section">
-    <div class="welcome-container">
-        <!-- Left Column -->
-        <div class="welcome-gallery">
-            <div class="gallery-wrapper">
-                <!-- Experience Counter -->
-                <div class="experience-counter">
-                    <div class="counter-wrapper">
-                        <!-- <div class="counter-display">
-                            <span class="counter-number" data-value="7">7+</span>
-                        </div> -->
-                        <!-- <div class="counter-title">Years Experience</div> -->
-                    </div>
-                </div>
+  <!-- hero  section 2  -->
+  <section class="w-100 py-4" style="background-color:  #dcdee1">
+    <div class="container-fluid px-5">
+      <div class="row align-items-center gx-5">
 
-                <!-- Gallery Images -->
-                <div class="image-grid">
-                    <img class="gallery-image gallery-image--main" 
-                         src="./image/hero1.webp" 
-                         alt="Furniture restoration showcase"
-                         loading="lazy">
+<!-- Left Content -->
+<div class="col-lg-6 position-relative d-flex justify-content-center align-items-center overflow-hidden mb-4 mb-lg-0"
+     style="min-height: 500px;">
+
+  <!-- Main Image -->
+  <img src="/image/hero2.webp" alt="Sofa Restoration"
+       class="img-fluid rounded shadow-lg position-relative z-1 w-75 w-md-100">
+
+  <!-- Overlapping Top-Left Image (Mobile adjustments) -->
+  <img src="/image/hero3.webp" alt="Fabric Upgrade"
+       class="img-fluid rounded shadow position-absolute z-2 d-none d-md-block"
+       style="width: 30%; top: 10%; left: -5%; transform: rotate(-12deg);">
+
+  <!-- Overlapping Bottom-Right Image (Mobile adjustments) -->
+  <img src="/image/hero4.webp" alt="Custom Installation"
+       class="img-fluid rounded shadow position-absolute z-3 d-none d-md-block"
+       style="width: 40%; bottom: 0; right: -15%; transform: rotate(5deg);">
+</div>
+
+        <!-- Right Card Grid -->
+        <div class="col-lg-6">
+          <div class="row g-4">
+
+            <!-- First Card (Sofa Repair) -->
+            <div class="col-md-5 col-lg-5">
+              <div class="card p-2 h-100" style="max-height: 250px;">
+                <div class="card-header">
+                  Sofa Repair
                 </div>
+                <div class="card-body">
+                  <h5 class="card-title fs-6 mb-2">Expert Sofa Repair Services</h5>
+                  <p class="card-text small mb-2">We provide high-quality sofa repair services, restoring your furniture.</p>
+                  <a href="#" class="btn btn-sm btn-primary">Learn More</a>
+                </div>
+              </div>
             </div>
+
+            <!-- Installations Card -->
+            <div class="col-12 col-md-5">
+              <div class="card p-2 h-100" style="max-height: 250px;">
+                <div class="card-header py-2 small fw-semibold">
+                  New Installations
+                </div>
+                <div class="card-body py-2 px-3">
+                  <h5 class="card-title fs-6 mb-2">Custom Sofa Installations</h5>
+                  <p class="card-text small mb-2">Custom installations to fit your space and style.</p>
+                  <a href="#" class="btn btn-sm btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Fabric & Material Upgrade Card -->
+            <div class="col-12 col-md-5">
+              <div class="card p-2 h-100" style="max-height: 250px;">
+                <div class="card-header py-2 small fw-semibold">
+                  Fabric & Material Upgrade
+                </div>
+                <div class="card-body py-2 px-3">
+                  <h5 class="card-title fs-6 mb-2">Fabric & Material Upgrade</h5>
+                  <p class="card-text small mb-2">Give your sofa a stylish and durable new look.</p>
+                  <a href="#" class="btn btn-sm btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sofa Customization Card -->
+            <div class="col-12 col-md-5">
+              <div class="card p-2 h-100" style="max-height: 250px;">
+                <div class="card-header py-2 small fw-semibold">
+                  Sofa Customization
+                </div>
+                <div class="card-body py-2 px-3">
+                  <h5 class="card-title fs-6 mb-2">Personalized Sofa Design</h5>
+                  <p class="card-text small mb-2">Customize size, color, and upholstery to match your style.</p>
+                  <a href="#" class="btn btn-sm btn-primary">Learn More</a>
+                </div>
+              </div>
+            </div>
+
+
+
+
+          </div>
         </div>
 
-        <!-- Right Column -->
-        <div class="welcome-content">
-            <span class="content-label">Welcome to Sofa Spark</span>
-            <h1 class="content-heading">Revamping Spaces with Unparalleled Expertise</h1>
-            
-            <p class="content-description">
-                <a href="https://www.youtube.com/@FurnitureLaundry" class="brand-link">
-                    <strong>Sofa Spark</strong>
-                </a> 
-                restores elegance and beauty with expert care, precision, and craftsmanship, 
-                transforming furniture, leather sofas, curtains, carpets, and more into timeless, 
-                polished, and well-maintained spaces with lasting charm and sophistication.
-            </p>
-
-            <!-- Services -->
-            <div class="services-grid">
-                <div class="card">
-                    <div class="card-header">
-                      Featured
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-
-                  <div class="card">
-                    <div class="card-header">
-                      Featured
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header">
-                      Featured
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                  <div class="card">
-                    <div class="card-header">
-                      Featured
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">Special title treatment</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                  
-            </div>
-
-            <a href="/about-us" class="cta-button">More About Us</a>
-        </div>
-    </div>
-</section>
-
-<!-- hero  section 3 -->
-<section class="herosection3">
-    <!-- Left: 30% -->
-    <div class="herosection3-left">
-      <h2>Welcome to Furniture Elegance</h2>
-      <h6>Crafting Timeless Interiors</h6>
-      <p>
-        At Sofa Spark, we combine craftsmanship, passion, and innovation
-        to transform spaces into timeless expressions of comfort and class.
-      </p>
-      <a href="#">Explore More &rarr;</a>
-    </div>
-  
-    <!-- Right: 70% -->
-    <div class="herosection3-right">
-        <div class="icon-card-row">
-            <div class="icon-card">
-              <div class="icon">🛋️</div>
-              <h3>Luxury Restoration</h3>
-              <p>Expert care for your treasured furniture with premium restoration.</p>
-              <a href="#">Learn More</a>
-            </div>
-          
-            <div class="icon-card">
-              <div class="icon">🧽</div>
-              <h3>Deep Cleaning</h3>
-              <p>Advanced techniques to rejuvenate carpets, curtains, and sofas.</p>
-              <a href="#">Learn More</a>
-            </div>
-          </div>
-          <div class="icon-card-row">
-            <div class="icon-card">
-              <div class="icon">🛋️</div>
-              <h3>Luxury Restoration</h3>
-              <p>Expert care for your treasured furniture with premium restoration.</p>
-              <a href="#">Learn More</a>
-            </div>
-          
-            <div class="icon-card">
-              <div class="icon">🧽</div>
-              <h3>Deep Cleaning</h3>
-              <p>Advanced techniques to rejuvenate carpets, curtains, and sofas.</p>
-              <a href="#">Learn More</a>
-            </div>
-          </div>
+      </div>
     </div>
   </section>
-<!-- hero section 3 -->
-
- <!-- hero section 5 -->
- <section class="herosection5">
-  <div class="heading5">
-      <h4>Why Choose Us for Leather Care</h4>
-      <h4>Crafting Timeless Elegance and Comfort in Leather</h4>
-      <p>Preserving the Beauty and Durability of Your Leather with Expertise and Precision.</p>
-  </div>
-  <div class="features5">
-      <div class="feature5-box">
-          <div class="icon">
-            ✅
-          </div>
-          <h4>Master Craftsmanship</h4>
-          <p>Decades of mastery in leather care & repair.</p>
-      </div>
-      <div class="feature5-box">
-          <div class="icon">
-            ✅
-          </div>
-          <h4>Eco-Friendly Techniques</h4>
-          <p>Sustainable restoration and dyeing methods.</p>
-      </div>
-      <div class="feature5-box">
-          <div class="icon">
-            ✅
-          </div>
-          <h4>Customized Services</h4>
-          <p>Tailored solutions to meet your specific needs.</p>
-      </div>
-      <div class="feature5-box">
-          <div class="icon">
-            ✅
-          </div>
-          <h4>Guaranteed Satisfaction</h4>
-          <p>Exceptional quality with truly lasting results.</p>
-      </div>
-  </div>
-</section>
- <!--  -->
 
 
- <!-- footer section -->
-<footer class="footer">
-    <div class="footer-container">
-      <!-- Column 1: Logo and Info -->
-      <div class="footer-column footer-branding">
-        <a href="https://furniturelaundry.com/" class="footer-logo">
-          <img src="https://furniturelaundry.com/wp-content/uploads/2024/12/furniture-site-logo-e1733556585671.png" alt="Sofa Spark Logo">
-        </a>
-        <p class="footer-tagline">Sofa Spark revives living spaces with expert care, ensuring timeless charm and polished sophistication.</p>
-        <div class="footer-social">
-          <a href="https://www.facebook.com/profile.php?id=61570079496838" aria-label="Facebook" class="social-icon facebook">
-            <i class="ti-facebook" aria-hidden="true"></i>
+
+  <!-- hero  section 3 -->
+  <section class="w-100 py-4" style="background-color: #f8f9fa;">
+    <div class="container-fluid px-5">
+      <div class="row align-items-center gx-5">
+
+        <!-- Left Content -->
+        <div class="col-lg-6 d-flex flex-column justify-content-center mb-4 mb-lg-0">
+          <p class="text-uppercase text-secondary fw-semibold mb-3" style="letter-spacing: 1.2px; font-size: 1rem;">
+            Featured Services
+          </p>
+          <h1 class="display-3 fw-bold text-dark mb-4" style="line-height: 1.2;">
+            Timeless Elegance in <br> Expert Sofa Care
+          </h1>
+          <p class="fs-4 text-muted mb-5" style="max-width: 600px;">
+            We provide expert sofa care craftsmanship, offering personalized solutions to preserve its beauty, comfort,
+            and timeless elegance.
+          </p>
+          <a href="#"
+            class="btn btn-danger rounded-pill fw-semibold d-inline-flex align-items-center justify-content-center"
+            style="width: 150px; height: 36px; font-size: 1.2rem;">
+            Explore More
           </a>
-          <a href="https://www.instagram.com/furniture.laundry?igsh=emNlZGljY2pnejFl" aria-label="Instagram" class="social-icon instagram">
-            <svg class="svg-icon" viewBox="0 0 448 512" aria-hidden="true">
-              <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
-            </svg>
-          </a>
+
+        </div>
+
+        <!-- Right Card Grid -->
+        <div class="col-lg-6">
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="bg-white p-4 shadow rounded h-100 card-hover">
+                <div class="fs-1 mb-3">🪑</div>
+                <h5 class="fw-bold mb-2">Sofa Repair</h5>
+                <p class="text-muted mb-0">Restore structure and look with expert fixes.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="bg-white p-4 shadow rounded h-100 card-hover">
+                <div class="fs-1 mb-3">🛠️</div>
+                <h5 class="fw-bold mb-2">Installations</h5>
+                <p class="text-muted mb-0">Custom setups for modern sofa solutions.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="bg-white p-4 shadow rounded h-100 card-hover">
+                <div class="fs-1 mb-3">🧵</div>
+                <h5 class="fw-bold mb-2">Fabric Replace</h5>
+                <p class="text-muted mb-0">Upgrade your sofas with new, stylish fabrics.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="bg-white p-4 shadow rounded h-100 card-hover">
+                <div class="fs-1 mb-3">🧼</div>
+                <h5 class="fw-bold mb-2">Deep Cleaning</h5>
+                <p class="text-muted mb-0">Professional cleaning for lasting freshness.</p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- hero section 3 -->
+
+  <!-- hero section 5 -->
+  <section class="py-5 bg-info-subtle text-center mb-2 br-2">
+    <div class="container">
+      <!-- Heading -->
+      <div class="mb-5">
+        <h2 class="fw-bold mb-2">Why Choose Sofa Spark</h2>
+        <h5 class="fw-semibold text-muted">Reliable Sofa Services with Lasting Comfort & Style</h5>
+        <p class="text-secondary">
+          Delivering expert sofa repairs, modern installations, and fabric care with precision and trust.
+        </p>
+      </div>
+
+      <!-- Feature Grid -->
+      <div class="row g-3 justify-content-center">
+        <!-- Feature 1 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 shadow-sm h-100 text-center p-3">
+            <div class="text-success fs-3 mb-2">✅</div>
+            <h6 class="fw-bold text-primary">Expert Sofa Technicians</h6>
+            <p class="text-muted small mb-0">
+              Years of hands-on experience in repairing and installing all types of sofas.
+            </p>
+          </div>
+        </div>
+        <!-- Feature 2 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 shadow-sm h-100 text-center p-3">
+            <div class="text-success fs-3 mb-2">✅</div>
+            <h6 class="fw-bold text-primary">Premium Materials</h6>
+            <p class="text-muted small mb-0">
+              High-quality fabrics, leather, and padding to ensure durability and comfort.
+            </p>
+          </div>
+        </div>
+        <!-- Feature 3 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 shadow-sm h-100 text-center p-3">
+            <div class="text-success fs-3 mb-2">✅</div>
+            <h6 class="fw-bold text-primary">Personalized Solutions</h6>
+            <p class="text-muted small mb-0">
+              Custom-fit services tailored to your space, style, and seating needs.
+            </p>
+          </div>
+        </div>
+        <!-- Feature 4 -->
+        <div class="col-md-6 col-lg-3">
+          <div class="card border-0 shadow-sm h-100 text-center p-3">
+            <div class="text-success fs-3 mb-2">✅</div>
+            <h6 class="fw-bold text-primary">Trusted by Hundreds</h6>
+            <p class="text-muted small mb-0">
+              Client satisfaction is our top priority—backed by real testimonials.
+            </p>
+          </div>
         </div>
       </div>
-      
+    </div>
+  </section>
+
+
+  <!--  -->
+
+
+  <!-- fedback section -->
+<!-- Customer Feedback Section -->
+<section class="customer-feedback-section py-5 bg-light position-relative">
+  <div class="container">
+    <h2 class="text-center mb-4 fw-bold">💬 What Our Customers Say</h2>
+    <p class="text-center mb-5 text-muted">Real words from happy homes Sofa Spark has transformed.</p>
+
+    <!-- Scrollable Feedback Section -->
+    <div class="row">
+      <div class="col-12">
+        <div class="feedback-cards-container px-2" style="max-width: 100%; overflow-x: auto; scroll-behavior: smooth; scrollbar-width: thin;">
+          <div id="feedbackScroll" style="display: flex; gap: 35px; padding-bottom: 20px;">
+
+            <!-- Card 1 -->
+            <div class="card shadow-sm animate__animated animate__fadeInUp" style="width: 22rem; height: 15rem; flex-shrink: 0; overflow: hidden; transition: transform 0.3s;">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <blockquote class="blockquote mb-0">
+                  <p class="mb-2" style="font-size: 1.1rem;">"Sofa Spark completely transformed my old leather sofa! The service was impeccable, and the results exceeded my expectations."</p>
+                  <footer class="blockquote-footer mt-2 text-muted">John Doe, <cite title="Source Title">New York</cite></footer>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card shadow-sm animate__animated animate__fadeInUp" style="width: 22rem; height: 15rem; flex-shrink: 0; overflow: hidden; transition: transform 0.3s;">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <blockquote class="blockquote mb-0">
+                  <p class="mb-2" style="font-size: 1.1rem;">"I couldn't be happier with the curtain cleaning and sofa repair services. Highly recommend Sofa Spark for anyone looking to restore their furniture!"</p>
+                  <footer class="blockquote-footer mt-2 text-muted">Jane Smith, <cite title="Source Title">California</cite></footer>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card shadow-sm animate__animated animate__fadeInUp" style="width: 22rem; height: 15rem; flex-shrink: 0; overflow: hidden; transition: transform 0.3s;">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <blockquote class="blockquote mb-0">
+                  <p class="mb-2" style="font-size: 1.1rem;">"The team at Sofa Spark did an amazing job with my carpet. It's like new again! Professional, quick, and affordable!"</p>
+                  <footer class="blockquote-footer mt-2 text-muted">Emily Clark, <cite title="Source Title">Florida</cite></footer>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card shadow-sm animate__animated animate__fadeInUp" style="width: 22rem; height: 15rem; flex-shrink: 0; overflow: hidden; transition: transform 0.3s;">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <blockquote class="blockquote mb-0">
+                  <p class="mb-2" style="font-size: 1.1rem;">"Fantastic service! My sofa looks brand new, and the staff was so friendly and professional. Highly recommended!"</p>
+                  <footer class="blockquote-footer mt-2 text-muted">Michael Brown, <cite title="Source Title">Texas</cite></footer>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="card shadow-sm animate__animated animate__fadeInUp" style="width: 22rem; height: 15rem; flex-shrink: 0; overflow: hidden; transition: transform 0.3s;">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <blockquote class="blockquote mb-0">
+                  <p class="mb-2" style="font-size: 1.1rem;">"Sofa Spark made my leather sofa shine like never before. I couldn't believe how much better it looked after just one session!"</p>
+                  <footer class="blockquote-footer mt-2 text-muted">Sarah Lee, <cite title="Source Title">Chicago</cite></footer>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="card shadow-sm animate__animated animate__fadeInUp" style="width: 22rem; height: 15rem; flex-shrink: 0; overflow: hidden; transition: transform 0.3s;">
+              <div class="card-body d-flex flex-column justify-content-between">
+                <blockquote class="blockquote mb-0">
+                  <p class="mb-2" style="font-size: 1.1rem;">"Excellent service! I got my carpet cleaned, and it feels fresh again. The Sofa Spark team was great to work with."</p>
+                  <footer class="blockquote-footer mt-2 text-muted">David Kim, <cite title="Source Title">Miami</cite></footer>
+                </blockquote>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--  -->
+
+<!-- footer section -->
+<footer class="bg-light text-dark pt-5 pb-4">
+  <div class="container-fluid px-lg-5">
+    <div class="row gx-1 gy-3 justify-content-between"> <!-- Reduced horizontal spacing -->
+
+      <!-- Column 1: Logo and About -->
+      <div class="col-lg-3 col-md-6">
+        <img src="./image/LOGO2.png" alt="Sofa Spark Logo" width="160" class="mb-3" loading="lazy">
+        <p>Sofa Spark revives living spaces with expert care, ensuring timeless charm and polished sophistication.</p>
+        <div class="d-flex gap-3 mt-3">
+          <a href="#" class="text-dark"><i class="bi bi-facebook "></i></a>
+          <a href="#" class="text-dark"><i class="bi bi-instagram "></i></a>
+        </div>
+      </div>
+
       <!-- Column 2: Quick Links -->
-      <div class="footer-column footer-nav">
-        <h2 class="footer-heading">Quick Links</h2>
-        <nav class="footer-menu">
-          <ul>
-            <li><a href="/pages/about.html">About Us</a></li>
-            <li><a href="/pages/ourService.html">Our Services</a></li>
-            <li><a href="/pages/portFolio.html">Portfolio</a></li>
-            <li><a href="/pages/portFolio.html">Blog</a></li>
-            <li><a href="/pages/contact.html">Contact Us</a></li>
-          </ul>
-        </nav>
+      <div class="col-lg-1 col-md-6">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="/pages/about.html" class="text-dark text-decoration-none">About Us</a></li>
+          <li><a href="/pages/ourService.html" class="text-dark text-decoration-none">Our Services</a></li>
+          <li><a href="/pages/portFolio.html" class="text-dark text-decoration-none">Portfolio</a></li>
+          <li><a href="/pages/portFolio.html" class="text-dark text-decoration-none">Blog</a></li>
+          <li><a href="/pages/contact.html" class="text-dark text-decoration-none">Contact Us</a></li>
+        </ul>
       </div>
-      
+
       <!-- Column 3: Services -->
-      <div class="footer-column footer-nav">
-        <h2 class="footer-heading">Our Services</h2>
-        <nav class="footer-menu">
-          <ul>
-            <li><a href="https://furniturelaundry.com/leather-maintenance/">Leather Maintenance</a></li>
-            <li><a href="https://furniturelaundry.com/fabric-upholstery-sofas/">Fabric Upholstery Maintenance</a></li>
-            <li><a href="https://furniturelaundry.com/wood-maintenance/">Wood Maintenance</a></li>
-            <li><a href="https://furniturelaundry.com/metal-maintenance/">Metal Maintenance</a></li>
-            <li><a href="https://furniturelaundry.com/curtain-maintenance/">Curtain Maintenance</a></li>
-            <li><a href="https://furniturelaundry.com/marble-maintenance/">Marble Maintenance</a></li>
-            <li><a href="https://furniturelaundry.com/rugs-carpet-maintenance/">Rugs & Carpets Maintenance</a></li>
-          </ul>
-        </nav>
+      <div class="col-lg-2 col-md-8">
+        <h5>Our Services</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-dark text-decoration-none">Leather Maintenance</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Fabric Upholstery</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Wood Maintenance</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Metal Maintenance</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Curtain Maintenance</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Marble Maintenance</a></li>
+          <li><a href="#" class="text-dark text-decoration-none">Rugs & Carpet Cleaning</a></li>
+        </ul>
       </div>
-      
+
       <!-- Column 4: Map -->
-      <div class="footer-column footer-map">
-        <iframe 
-          src="https://www.google.com/maps?q=18.923307,72.826096&z=15&output=embed"
-          width="100%" 
-          height="300" 
-          frameborder="0" 
-          style="border:0;" 
-          allowfullscreen="" 
-          aria-hidden="false" 
-          tabindex="0"
-          title="Nariman Point Fire Station Location Map">
+      <div class="col-lg-5 col-md-12">
+        <h5>Our Location</h5>
+        <iframe src="https://www.google.com/maps?q=18.923307,72.826096&z=15&output=embed" width="100%" height="200"
+          frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
         </iframe>
       </div>
     </div>
+
+    <div class="text-center mt-5 pt-4 border-top border-secondary">
+      <small class="text-secondary">&copy; 2025 Sofa Spark. All rights reserved.</small>
+    </div>
+  </div>
 </footer>
 
-<footer class="site-footer">
-    <div class="sitefooter-container">
-      <h2 class="sitefooter-text">
-        Copyright © 2024 Sofa Spark. All Rights Reserved.
-        Powered by <a href="https://techhunt.com/" target="_blank" rel="noopener noreferrer">TechHunt</a>
-        TechHunt</a>.
-      </h2>
-    </div>
-</footer>
+
+
+
   
-    <!-- ✅ Bootstrap JS (optional, for components like modals, etc.) -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    ></script>
-  
-    <!-- ✅ Custom JS -->
-    <script src="script.js"></script>
-  </body>
+
+
+  <!-- ✅ Bootstrap JS (optional, for components like modals, etc.) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- ✅ Custom JS -->
+  <script src="script.js"></script>
+</body>
+
 </html>
